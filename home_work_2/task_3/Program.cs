@@ -27,8 +27,12 @@ void holyDay(int day)
         Console.WriteLine("Не выходной, но почти ;)");
     else
         if (day == 1)
-        Console.WriteLine("Пора на работу!");
+        Console.WriteLine("Пора на работу! Выходные кончились");
     else
+        if (day == 3)
+        Console.WriteLine("Среда - это маленькая пятница ;)");
+    else
+        if (day < 8 && day > 0)
         Console.WriteLine("Проверка показала, что сегодня не выходной :(");
 }
 
