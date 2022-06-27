@@ -5,7 +5,7 @@ void getCube(int num)
     Console.Write(num + " -> ");
     for (int i = 1; i <= num; i++)
     {
-        Console.Write(Math.Pow(i,3) + " ");
+        Console.Write(Math.Pow(i, 3) + " ");
     }
 }
 
