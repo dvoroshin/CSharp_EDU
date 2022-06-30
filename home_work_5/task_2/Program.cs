@@ -40,7 +40,7 @@ void SumOddNum(int[] array)
 
 int[] AskUser()
 {
-    Console.Write($"{Environment.NewLine}Введите размерность массива: ");
+    Console.Write($"{Environment.NewLine}Введите размер массива: ");
     int size = Convert.ToInt32(Console.ReadLine());
     int[] array = GetArray(size);
     PrintArray(array);

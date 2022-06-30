@@ -44,7 +44,7 @@ void CountEvenNum(int[] array)
 
 int[] AskUser()
 {
-    Console.Write("Введите размерность массива: ");
+    Console.Write("Введите размер массива: ");
     int size = Convert.ToInt32(Console.ReadLine());
     int[] array = GetArray(size);
     PrintArray(array);
