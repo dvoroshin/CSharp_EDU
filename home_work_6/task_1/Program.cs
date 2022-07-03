@@ -1,5 +1,15 @@
 ﻿// считает количество чисел бОльших нуля, которые вводит пользователь
 
+void PrintArray(int[] array)
+{
+    Console.Write($"[");
+    for (int i = 0; i < array.Length - 1; i++)
+    {
+        Console.Write($"{array[i]}, ");
+    }
+    Console.Write($"{array[array.Length - 1]}]{Environment.NewLine}");
+}
+
 int GetNumOfConsole(int size)
 {
     string? str = String.Empty;
@@ -13,6 +23,7 @@ int GetNumOfConsole(int size)
         if(array[i] > 0)
             sum += array[i];
     }
+    PrintArray(array);
     return sum;
 }
 Console.Clear();
