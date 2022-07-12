@@ -3,7 +3,6 @@
 int[,,] CreateRandomArrayThree(int x, int y, int z)
 {
     int[,,] arrayThree = new int[x, y, z];
-    int[] arrayForRepeat = new int[x * y * z];
     int min = 10, max = 99; //т.к двузначные числа
 
     for (int i = 0; i < x; i++)
